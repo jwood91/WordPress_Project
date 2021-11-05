@@ -1,0 +1,24 @@
+/*
+Theme Name: Wordpress Child
+Theme URI: http://localhost/wordpress/
+Description: This is a child of Twentytwenty
+Author: Joe Wood
+Author URI: http://joseph-wood.netmatters-scs.co.uk
+Template: twentytwenty
+Version: 0.1
+*/
+@import url("../twentytwenty/style.css");
+
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/sun-photo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.singular .entry-header {
+    background-color: transparent !important;
+
+}
+
+.entry-title {}
